@@ -24,18 +24,28 @@
   
 
   <!-- Hero -->
-  <header class="flex justify-between items-center p-6">
-    <h1 class="text-yellow-400 text-xl font-bold">iATM</h1>
+  <header class="flex justify-between items-center px-10 py-6 bg-transparent">
+    <!-- Left: Logo Image -->
+    <a href="#">
+      <img src="0.png" alt="iATM Logo" class="h-8 md:h-10" />
+    </a>
+  
+    <!-- Right: Navigation -->
     <nav>
-      <ul class="flex space-x-6">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Solution</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Contact us</a></li>
+      <ul class="flex space-x-6 font-mono text-white text-sm md:text-base">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Solution</a></li>
+        <li><a href="#" class="hover:underline">Company</a></li>
+        <li><a href="#" class="hover:underline">Login</a></li>
+        <li>
+          <a href="#" class="px-4 py-2 border border-white rounded-md hover:bg-white hover:text-black transition">
+            Contact us
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
+  
 
 
 
@@ -225,27 +235,60 @@
   
 
   <!-- Footer -->
-  <footer class="bg-[#0c0524] text-white p-10 flex flex-wrap gap-10">
-    <div class="flex-1 min-w-[200px]">
-      <h3 class="text-yellow-400 font-bold">iATM</h3>
-      <p class="text-sm mt-2">Innovative smart contract blockchain solutions...</p>
+  <footer class="bg-[#0B0B22] text-white px-10 py-16 font-mono">
+    <div class="flex flex-wrap justify-between gap-10 max-w-7xl mx-auto">
+      
+      <!-- Left: Logo + Description -->
+      <div class="flex-1 min-w-[200px]">
+        <div class="flex items-center space-x-2">
+          <img src="0.png" alt="iATM Logo" class="h-6" />
+        </div>
+        <p class="text-sm mt-4 leading-relaxed max-w-xs">
+          iATM® is a software provider of innovative smart contract blockchain solutions. <br />
+          Executive team has over 50 years of collective experience in Intelligent Asset Tracking Management services and compliance.
+        </p>
+        
+        <!-- Social Icons Row -->
+        <div class="flex space-x-4 mt-4 text-xl">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+  
+      <!-- Middle: Company Links -->
+      <div class="flex-1 min-w-[150px]">
+        <h4 class="text-lg font-bold mb-3 text-white">Company</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Contact us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Right: Contact Info -->
+      <div class="flex-1 min-w-[200px]">
+        <h4 class="text-lg font-bold mb-3 text-white">Contact</h4>
+        <p class="text-sm leading-relaxed">
+          P.O. Box 1281<br />
+          682-214-7998<br />
+          <a href="mailto:info@iatmgroup.com" class="text-yellow-400 hover:underline">
+            info@iatmgroup.com
+          </a>
+        </p>
+      </div>
     </div>
-    <div class="flex-1 min-w-[200px]">
-      <h4 class="font-bold">Company</h4>
-      <ul class="text-sm mt-2">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact us</li>
-      </ul>
-    </div>
-    <div class="flex-1 min-w-[200px]">
-      <h4 class="font-bold">Contact</h4>
-      <p class="text-sm mt-2">
-        P.O. Box 1281<br/>
-        682-214-7998<br/>
-        <a href="mailto:info@iatmgroup.com" class="text-yellow-400">info@iatmgroup.com</a>
-      </p>
+  
+    <!-- Bottom Bar -->
+    <div class="border-t border-white/20 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
+      <p>© 2025 iATM. All rights reserved</p>
+      <div class="flex space-x-6">
+        <a href="#" class="hover:underline">Privacy policy</a>
+        <a href="#" class="hover:underline">Terms of use</a>
+      </div>
     </div>
   </footer>
+  
 </body>
 </html>
